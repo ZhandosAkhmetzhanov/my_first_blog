@@ -1,0 +1,15 @@
+form {
+    margin-top: 50px;
+    margin-left: 230px;
+    margin-right: 500px;
+    margin-bottom: 50px;
+}
+button.btn{
+   margin-top: 30px;
+}
+div.form-group{
+   margin-top: 30px;
+}
+div.bg{
+   background-color: blue;
+}

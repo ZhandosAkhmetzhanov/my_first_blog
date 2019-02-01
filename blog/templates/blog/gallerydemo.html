@@ -1,0 +1,94 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="{% static 'css/gallerydemo.css' %}">
+  <!--link rel="stylesheet" href="gallerydemo.css"-->
+  <script src="{% static 'js/gallerydemo.js' %}">
+
+  </script>
+</head>
+<body>
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item active" aria-current="page"><a href="file:///C:/Users/Asus/Desktop/Method/final%20project/%D0%94%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D1%8F%D1%8F%20%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0/homepage.html">Домашняя страница</a></li>
+      <li class="breadcrumb-item"><a href="file:///C:/Users/Asus/Desktop/Method/%D0%93%D0%B0%D0%BB%D0%B5%D1%80%D0%B5%D1%8F%20%D1%81%D0%BB%D0%B0%D0%B9%D0%B4%20%D0%B4%D0%B5%D0%BC%D0%BE/gallerydemo.html">Галерея</a></li>
+      <li class="breadcrumb-item"><a href="file:///C:/Users/Asus/Desktop/Method/final%20project/%D0%9E%20%D0%BD%D0%B0%D1%81/aboutus.html">О нас</a></li>
+      <li class="breadcrumb-item"><a href="#">Продукты</a></li>
+    </ol>
+  </nav>
+
+<h2 style="text-align:center">Slideshow Gallery</h2>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+	<img src="{% static "images/IMG_4504.jpg" %}">
+    <!--img src="BBN_3989.jpg" style="width:100%"-->
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+	<img src="{% static "images/IMG_4530.jpg" %}" alt="My image">
+    <!--img src="BBN_4001.jpg" style="width:100%"-->
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+	<img src="{% static "images/IMG_4533.jpg" %}" alt="My image">
+    <!--img src="IMG_4533.jpg" style="width:100%"-->
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+	<img src="{% static "images/IMG_4542.jpg" %}" alt="My image">
+    <!--img src="IMG_4504.jpg" style="width:100%"-->
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+	<img src="{% static "images/IMG_4544.jpg" %}" alt="My image">
+    <!--img src="IMG_4530.jpg" style="width:100%"-->
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+	<img src="{% static "images/IMG_4554.jpg" %}" alt="My image">
+    <!--img src="IMG_4533.jpg" style="width:100%"-->
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="{% static "images/IMG_4504.jpg" %}" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="{% static "images/IMG_4530.jpg" %}" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="{% static "images/IMG_4533.jpg" %}" style="width:100%" onclick="currentSlide(3)" alt="Авторская работа">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="{% static "images/IMG_4542.jpg" %}" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="{% static "images/IMG_4544.jpg" %}" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="{% static "images/IMG_4554.jpg" %}" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>

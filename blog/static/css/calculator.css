@@ -1,0 +1,35 @@
+#calculator{
+  margin: auto;
+  width: 500px;
+  height: 300px;
+  background-color: 	#e9c2af;
+  box-shadow: 20px 20px 30px #42f47a;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+#calculator div{
+  display: inline-block;
+}
+#div1{
+  margin-left: 10px;
+}
+#pricecalculate{
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#material{
+  margin-top: 0px;
+  margin-bottom: 7px;
+}
+#country{
+  margin-bottom: 15px;
+}
+body{
+  background-image: url('Francuzskiy_kover_v_luvre_Frantsuzskij-kover-v-Luvre.jpg');
+  background-size: cover;
+}
+textarea{
+  margin-left: 10px;
+}
+select{margin-bottom: 2px;}

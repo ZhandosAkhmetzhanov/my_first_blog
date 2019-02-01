@@ -1,0 +1,25 @@
+/*.carousel {
+  height: 500px
+}*/
+.carousel img{
+  height: 500px;
+}
+.container{
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: white;
+}
+.container img {
+  width: 200px;
+  height: 200px;
+}
+.navbar-brand{
+  font-family: fantasy;
+}
+body{
+  background-color: #42f492;
+  /*background: url('ind06182-300.jpg');*/
+  /*background-size: cover;*/
+
+}
